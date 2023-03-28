@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Grade Calculator</title>
+    <!-- link css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- grey box -->
+    <div id="box">
+        <h1>(/^-^)/ Grade Calculator \(^-^\)</h1>
+        <!-- fill up forms -->
+        <form action="">
+            <input type="text" id="sub1" placeholder="Subject 1">
+             <input type="text" id="sub2" placeholder="Subject 2">
+              <input type="text" id="sub3" placeholder="Subject 3">
+               <input type="text" id="sub4" placeholder="Subject 4">
+              <input type="text" id="sub5" placeholder="Subject 5">
+             <input type="text" id="sub6" placeholder="Subject 6">
+            <input type="text" id="sub7" placeholder="Subject 7">
+        </form>
+        <!-- calculate button to js -->
+        <button class="calculateButton" type="button" onclick="calculateGrade()" >Calculate</button> 
+        <p>Total Grade is: <span id="avg"></span></p>
+         <p>Descriptor: <span id="descriptor"></span></p>
+          <p>Remarks: <span id="remarks"></span></p>
+    </div>
+</body>
+</html>
+<!-- link js -->
+<script src="justine.js"></script>
+
